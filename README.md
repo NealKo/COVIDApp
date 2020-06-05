@@ -1,4 +1,4 @@
-###COVID-19 Information Web App
+### COVID-19 Information Web App
 
 Team Members: Puyuan Zhang, Surya Jagannadh Jatavallabhula, Neal Kornreich, Jonathan Prindle
 
