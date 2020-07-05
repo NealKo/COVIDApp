@@ -1,0 +1,158 @@
+('D:\\SynologyDrive\\Programming\\Code Test\\Search Automation - Relative '
+ 'Path\\Search Automation - backup\\dist\\Automation.exe',
+ True,
+ False,
+ False,
+ None,
+ None,
+ False,
+ False,
+ '<?xml version="1.0" encoding="UTF-8" standalone="yes"?><assembly manifestVersion="1.0" xmlns="urn:schemas-microsoft-com:asm.v1"><assemblyIdentity name="Automation" processorArchitecture="amd64" type="win32" version="1.0.0.0"/><dependency><dependentAssembly><assemblyIdentity language="*" name="Microsoft.Windows.Common-Controls" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" type="win32" version="6.0.0.0"/><compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"/></dependentAssembly></dependency><compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1"><application><supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}"/><supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/><supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/><supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/><supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/></application></compatibility></assembly>',
+ True,
+ 'Automation.pkg',
+ [('PYZ-00.pyz',
+   'D:\\SynologyDrive\\Programming\\Code Test\\Search Automation - Relative '
+   'Path\\Search Automation - backup\\build\\Automation\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\struct.pyo',
+   'PYMODULE'),
+  ('pyimod01_os_path',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PyInstaller\\loader\\pyimod01_os_path.pyc',
+   'PYMODULE'),
+  ('pyimod02_archive',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PyInstaller\\loader\\pyimod02_archive.pyc',
+   'PYMODULE'),
+  ('pyimod03_importers',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PyInstaller\\loader\\pyimod03_importers.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('Automation',
+   'D:\\SynologyDrive\\Programming\\Code Test\\Search Automation - Relative '
+   'Path\\Search Automation - backup\\Automation.py',
+   'PYSOURCE'),
+  ('VCRUNTIME140.dll',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('python37.dll',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\python37.dll',
+   'BINARY'),
+  ('unicodedata',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_bz2',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_socket',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('select',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_ssl',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_hashlib',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('pyexpat',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_lzma',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('win32wnet',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\win32\\win32wnet.pyd',
+   'EXTENSION'),
+  ('_ctypes',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_queue',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('win32.win32event',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\win32\\win32event.pyd',
+   'EXTENSION'),
+  ('win32.win32process',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\win32\\win32process.pyd',
+   'EXTENSION'),
+  ('win32.win32api',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\win32\\win32api.pyd',
+   'EXTENSION'),
+  ('libcrypto-1_1.dll',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\libcrypto-1_1.dll',
+   'BINARY'),
+  ('libssl-1_1.dll',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\DLLs\\libssl-1_1.dll',
+   'BINARY'),
+  ('pywintypes37.dll',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\pywin32_system32\\pywintypes37.dll',
+   'BINARY'),
+  ('base_library.zip',
+   'D:\\SynologyDrive\\Programming\\Code Test\\Search Automation - Relative '
+   'Path\\Search Automation - backup\\build\\Automation\\base_library.zip',
+   'DATA'),
+  ('selenium\\webdriver\\firefox\\webdriver.xpi',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver.xpi',
+   'DATA'),
+  ('selenium\\webdriver\\firefox\\amd64\\x_ignore_nofocus.so',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\selenium\\webdriver\\firefox\\amd64\\x_ignore_nofocus.so',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\getAttribute.js',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\selenium\\webdriver\\remote\\getAttribute.js',
+   'DATA'),
+  ('selenium\\webdriver\\remote\\isDisplayed.js',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\selenium\\webdriver\\remote\\isDisplayed.js',
+   'DATA'),
+  ('selenium\\webdriver\\firefox\\x86\\x_ignore_nofocus.so',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\selenium\\webdriver\\firefox\\x86\\x_ignore_nofocus.so',
+   'DATA'),
+  ('selenium\\webdriver\\firefox\\webdriver_prefs.json',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\selenium\\webdriver\\firefox\\webdriver_prefs.json',
+   'DATA'),
+  ('Automation.exe.manifest',
+   'D:\\SynologyDrive\\Programming\\Code Test\\Search Automation - Relative '
+   'Path\\Search Automation - '
+   'backup\\build\\Automation\\Automation.exe.manifest',
+   'BINARY'),
+  ('pyi-windows-manifest-filename Automation.exe.manifest', '', 'OPTION')],
+ [],
+ False,
+ False,
+ 1587257213,
+ [('run.exe',
+   'c:\\program files (x86)\\microsoft visual '
+   'studio\\shared\\python37_64\\lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit\\run.exe',
+   'EXECUTABLE')])
