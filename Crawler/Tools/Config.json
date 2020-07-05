@@ -4,9 +4,5 @@
     "user_agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.116 Safari/537.36",
     "screen_width": 1440,
     "screen_height": 900,
-    "pixel_ratio": 1.0,
-    "target_data": {"Table": "//section[contains(@class, 'data-table')]",
-                    "Title": "//div[contains(@class, 'rt-thead -header')]", 
-                    "Data": "//div[contains(@class, 'rt-tr-group')]"
-                   }
+    "pixel_ratio": 1.0
 }
