@@ -59,4 +59,24 @@ N/A
 Post-conditions:
 Users are redirected properly if they end up entering an invalid address.
 
-Test 3:
+Test 3: Case Name: Database Access  (automated test)
+
+Description: Within an application context, If user connects data base using get_db should return the same connection each time it’s called. 
+Pre-conditions: N/A, everything should be set up for the test.
+
+Test Steps:
+1.	Run flask with the web app.
+2.	Enter in test_get_close_db(app),  db = get_db()
+3.	Verify the error/redirect message.
+
+Expected results:  Within an application context, get_db should return the same connection each time it’s called. After the context, the connection should be closed.
+
+Actual results: connection should be closed  as intended 
+
+Status: Pass
+
+Notes: N/A
+
+Post-conditions: 
+After the context, the connection should be closed
+
