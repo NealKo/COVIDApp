@@ -30,6 +30,7 @@ class RepoInterface:
         # latest_data.calculated.recovery_rate
         # latest_data.calculated.recovered_vs_death_ratio
         # latest_data.calculated.cases_per_million_population
+    # ! Above list is not exclusive and actual num_columns could be larger
     @staticmethod
     def get_country_data(countries=None):
         pass
