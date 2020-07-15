@@ -11,28 +11,28 @@ def home():
 @app.route('/About')
 @app.route('/about')
 def about():
-	return "<h1>An informational page about COVID-19</h1>"
+	return render_template('about.html')
 
 @app.route('/Services')
 @app.route('/services')
 def service():
-	return "<h1> Provided Services </h1>"
+	return render_template('services.html')
 
 @app.route('/Updates')
 @app.route('/updates')
 def updates():
-	return "<h1> Updates information </h1>"
+	return render_template('updates.html')
 
 @app.route('/Facts')
 @app.route('/facts')
 def facts():
-	return "<h1> Facts about Covid-19 </h1>"
+	return render_template('facts.html')
 
 
 @app.route('/Links')
 @app.route('/links')
 def links():
-	return "<h1> A set of links</h1>"
+	return render_template('links.html')
 
 #Redirect for all routes not in the app.
 #make_response simplifies the error message process.
