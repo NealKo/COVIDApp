@@ -11,28 +11,28 @@ def home():
 @app.route('/About')
 @app.route('/about')
 def about():
-	return render_template('about.html')
+	return render_template('about.html', title='About')
 
 @app.route('/Services')
 @app.route('/services')
 def service():
-	return render_template('services.html')
+	return render_template('services.html', title='Services')
 
 @app.route('/Updates')
 @app.route('/updates')
 def updates():
-	return render_template('updates.html')
+	return render_template('updates.html', title='Updates')
 
 @app.route('/Facts')
 @app.route('/facts')
 def facts():
-	return render_template('facts.html')
+	return render_template('facts.html', title='Facts')
 
 
 @app.route('/Links')
 @app.route('/links')
 def links():
-	return render_template('links.html')
+	return render_template('links.html', title="Links")
 
 #Redirect for all routes not in the app.
 #make_response simplifies the error message process.
