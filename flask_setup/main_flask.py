@@ -1,5 +1,6 @@
 from flask import Flask, render_template, url_for
 from flask import make_response
+import pandas as pd
 app = Flask(__name__)
 
 @app.route('/')
@@ -33,6 +34,14 @@ def facts():
 @app.route('/links')
 def links():
 	return render_template('links.html', title="Links")
+
+# This is for only testing display of tables
+@app.route('/table')
+def displayTables():
+	df = pd.DataFrame({'State': ['California', 'Florida', 'Texas'],
+					   'Total cases': [375363, 333201, 317730]  ,
+					   'Total Deaths': [7595, 4895, 3865]})
+	return render_template('table.html',  tables=[df.to_html(classes='data', header="true")])
 
 #Redirect for all routes not in the app.
 #make_response simplifies the error message process.
