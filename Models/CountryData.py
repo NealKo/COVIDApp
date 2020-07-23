@@ -1,4 +1,3 @@
-
 class CountryData:
 
     class Coordinates:
