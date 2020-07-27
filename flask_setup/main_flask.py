@@ -15,11 +15,6 @@ def home():
 def about():
 	return render_template('about.html', title='About')
 
-@app.route('/Services')
-@app.route('/services')
-def service():
-	return render_template('services.html', title='Services')
-
 @app.route('/Updates')
 @app.route('/updates')
 def updates():
@@ -38,6 +33,7 @@ def links():
 
 # This is for only testing display of tables
 @app.route('/table')
+@app.route('/Table')
 def displayTables():
 	df = pd.DataFrame({'State': ['California', 'Florida', 'Texas'],
 					   'Total cases': [375363, 333201, 317730]  ,
