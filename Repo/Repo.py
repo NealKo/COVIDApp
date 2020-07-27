@@ -1,4 +1,4 @@
-from DataFetcher.DataFetcher import DataFetcher
+from flask_setup.DataFetcher.DataFetcher import DataFetcher
 from Repo.RepoInterface import RepoInterface
 
 
@@ -16,4 +16,11 @@ class Repo(RepoInterface):
     # None will return all countries
     @staticmethod
     def get_country_data(countries=None):
-        DataFetcher.get_countries(countries)
+        return DataFetcher.get_countries(countries)
+
+    @staticmethod
+    def get_formatted_data(countries=None):
+        df = Repo.get_country_data(countries)
+        df = df[["name", "population", "today.deaths", "today.confirmed"]]
+        df =  df.rename(columns = ({"name" : "Country", "population": "Population"}))
+        return df

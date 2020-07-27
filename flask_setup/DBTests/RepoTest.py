@@ -1,7 +1,8 @@
 import unittest
 import pandas as pd
 
-from DataFetcher.DataFetcher import DataFetcher
+from Repo.Repo import Repo
+from flask_setup.DataFetcher.DataFetcher import DataFetcher
 
 
 class Routes_Tests(unittest.TestCase):
@@ -11,6 +12,9 @@ class Routes_Tests(unittest.TestCase):
         self.assertIsNotNone(p)
         self.assertIsInstance(p, pd.DataFrame)
         self.assertEqual(p.shape, (249, 16))
+
+    def testRepo(self):
+        df = Repo.get_formatted_data()
 
 
 if __name__ == '__main__':

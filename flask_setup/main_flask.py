@@ -2,6 +2,8 @@ from flask import Flask, render_template
 from flask import make_response
 import pandas as pd
 
+from Repo.Repo import Repo
+
 app = Flask(__name__)
 
 @app.route('/')
@@ -35,16 +37,8 @@ def links():
 @app.route('/table')
 @app.route('/Table')
 def displayTables():
-	df = pd.DataFrame({'State': ['California', 'Florida', 'Texas'],
-					   'Total cases': [375363, 333201, 317730]  ,
-					   'Total Deaths': [7595, 4895, 3865]})
+	df = Repo.get_formatted_data()
 	return render_template('table.html',  tables=[df.to_html(classes='data', header="true")])
-
-@app.route('/ctable')
-def displayCTable():
-	pass
-	#df = DataFetcher.get_countries()
-	#df.to_html(header="true", table_id="table")
 
 #Redirect for all routes not in the app.
 #make_response simplifies the error message process.
