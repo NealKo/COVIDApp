@@ -28,4 +28,5 @@ class Repo(RepoInterface):
                                  "latest_data.deaths": "Deaths",
                                  "latest_data.critical": "Critical Cases",
                                  "latest_data.recovered": "Recovered"}))
+        df = df[df["Confirmed Cases"] > 0]
         return df

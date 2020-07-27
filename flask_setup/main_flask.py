@@ -48,12 +48,6 @@ def displayTables():
                            data=df.to_html(index=False, table_id="ctable"))
 
 
-@app.route('/testing')
-def testTables():
-    x = pd.DataFrame(np.random.randn(20, 5))
-    return render_template("test.html", data=x.to_html(table_id="example"))
-
-
 # Redirect for all routes not in the app.
 # make_response simplifies the error message process.
 @app.route('/<p_n>')
