@@ -38,7 +38,7 @@ def links():
 @app.route('/Table')
 def displayTables():
 	df = Repo.get_formatted_data()
-	return render_template('table.html',  tables=[df.to_html(classes='data', header="true")])
+	return render_template('table.html',  tables=[df.to_html(classes='data', header="true", index=False)])
 
 #Redirect for all routes not in the app.
 #make_response simplifies the error message process.

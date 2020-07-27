@@ -21,6 +21,11 @@ class Repo(RepoInterface):
     @staticmethod
     def get_formatted_data(countries=None):
         df = Repo.get_country_data(countries)
-        df = df[["name", "population", "today.deaths", "today.confirmed"]]
-        df =  df.rename(columns = ({"name" : "Country", "population": "Population"}))
+        df = df[
+            ["name", "latest_data.confirmed", "latest_data.deaths", "latest_data.critical", "latest_data.recovered"]]
+        df = df.rename(columns=({"name": "Country",
+                                 "latest_data.confirmed": "Confirmed Cases",
+                                 "latest_data.deaths": "Deaths",
+                                 "latest_data.critical": "Critical Cases",
+                                 "latest_data.recovered": "Recovered"}))
         return df
