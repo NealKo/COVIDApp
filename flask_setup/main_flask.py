@@ -12,19 +12,15 @@ app = Flask(__name__)
 @app.route('/Home')
 @app.route('/home')
 def home():
-    return render_template('home.html')
+    df = Repo.get_formatted_data()
+    return render_template('table.html',
+                           data=df.to_html(index=False, table_id="ctable"))
 
 
 @app.route('/About')
 @app.route('/about')
 def about():
     return render_template('about.html', title='About')
-
-
-@app.route('/Updates')
-@app.route('/updates')
-def updates():
-    return render_template('updates.html', title='Updates')
 
 
 @app.route('/Facts')
@@ -37,15 +33,6 @@ def facts():
 @app.route('/links')
 def links():
     return render_template('links.html', title="Links")
-
-
-# This is for only testing display of tables
-@app.route('/table')
-@app.route('/Table')
-def displayTables():
-    df = Repo.get_formatted_data()
-    return render_template('table.html',
-                           data=df.to_html(index=False, table_id="ctable"))
 
 
 # Redirect for all routes not in the app.
